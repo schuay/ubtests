@@ -1,0 +1,25 @@
+if 
+ident a 
+= 
+num 3 
+then 
+goto 
+ident line 
+num 3 
+end
+;
+ident label
+: 
+identa 
++ 
++
+;
+ident func 
+(
+ident a
+, 
+ident b
+, 
+ident d
+)
+; 
