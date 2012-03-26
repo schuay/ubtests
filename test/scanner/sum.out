@@ -1,0 +1,38 @@
+var
+ident index
+=
+num 16
+;
+var
+ident result
+=
+num 0
+;
+ident loop
+:
+if
+(
+ident index
+=
+num 0
+)
+then
+return
+ident result
+;
+end
+ident result
+=<
+ident result
++
+ident index
+;
+ident index
+=<
+ident index
+-
+num 1
+;
+goto
+ident loop
+;

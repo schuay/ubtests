@@ -1,0 +1,16 @@
+    (* computes sum of index..0 *)
+    var index = 010;
+    var result = &0;
+
+loop:
+    if (index = &0) then
+        return result;
+    end
+
+    (* multi-line
+       comment *)
+
+    result =< result + index;
+    index =< index - &1;
+
+    goto loop;
