@@ -1,0 +1,12 @@
+ident i
+=
+num 13130
+if 
+ident o
+=
+num 123
+then 
+goto 
+ident hell 
+end
+;
