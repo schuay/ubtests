@@ -1,0 +1,16 @@
+add(a, b)
+in:
+    x = *a;
+    a = (a + b + (c * d)) * (d + b);
+    y = (zz and bb) +1;
+    ( alf =< tst);
+    m = (alf =< tst ) =< alf;
+    c = alf # test;
+
+    *i = test;
+    ****i = test;
+    * - not * not - a = test;
+    *not i = test;
+    *not -i = test;
+    return a + (b*d);
+end;
