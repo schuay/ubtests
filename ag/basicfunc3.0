@@ -1,10 +1,10 @@
 sum(array, size)
 base_case:
-    (* i == 0
+    (* size == 0
        we're done
      *)
 
-    if not (i # 0) then
+    if not (size # 0) then
         return 0;
     end;
 
