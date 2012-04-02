@@ -1,0 +1,4 @@
+add(a, b)
+in:
+    return a + b;
+end;

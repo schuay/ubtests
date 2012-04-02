@@ -1,0 +1,15 @@
+sum(array, size)
+definitions:
+    var acc = 0;
+    var i = 0;
+loop:
+    if not (i =< size) then
+        goto out;
+    end;
+
+    acc = acc + (*(array + i));
+
+    goto loop;
+out:
+    return acc;
+end;
