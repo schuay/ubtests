@@ -1,0 +1,8 @@
+f(a,b)
+  if a =< b then
+    label:
+      var y = 32;
+  end;
+  var x = 34;
+  goto label;
+end;

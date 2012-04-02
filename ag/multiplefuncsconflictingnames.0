@@ -1,0 +1,11 @@
+f()
+    var a = 0;
+end;
+
+g()
+    var a = 0;
+end;
+
+h()
+    var a = 0;
+end;
