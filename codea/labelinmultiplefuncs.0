@@ -1,0 +1,9 @@
+f()
+a:
+    return 0;
+end;
+
+g()
+a:
+    return 0;
+end;
