@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ubtests by schuay</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>ubtests</h1>
+<p>Uebersetzerbau / Compilerconstruction Testcases SS 2012</p>
+        <p class="view"><a href="https://github.com/schuay/ubtests">View the Project on GitHub <small>schuay/ubtests</small></a></p>
+        <ul>
+          <li><a href="https://github.com/schuay/ubtests/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/schuay/ubtests/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/schuay/ubtests">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Uebersetzerbau (SS12)</h1>
+
+<p>Dies ist eine gemeinschaftliche Sammlung von Testfaellen fuer die Uebungsbeispiele
+der LVA "Uebersetzerbau (SS12)" an der TU Wien.</p>
+
+<p>Kurzes HOWTO (fuer die g0):</p>
+
+<pre><code>$ git clone git://github.com/schuay/ubtests.git ~/test
+</code></pre>
+
+<p>Danach koennen die Testfaelle durch diesen Befehl aktualisiert werden:</p>
+
+<pre><code>$ cd ~/test &amp;&amp; git pull
+</code></pre>
+
+<p>Das Testskript selbst wird von der LVA-Leitung zur Verfuegung gestellt:</p>
+
+<pre><code>$ /usr/ftp/pub/ubvl/test/scanner/test
+$ /usr/ftp/pub/ubvl/test/parser/test
+$ /usr/ftp/pub/ubvl/test/ag/test
+$ /usr/ftp/pub/ubvl/test/codea/test
+$ /usr/ftp/pub/ubvl/test/codeb/test
+$ /usr/ftp/pub/ubvl/test/gesamt/test
+</code></pre>
+
+<h1>Namenskonventionen fuer das Skript (Zitat LVA Leitung):</h1>
+
+<p>Die Dateien mit der Eingabe heissen *.0, *.1, *.2 oder *.3, wobei die
+Ziffer hinten den Exit-Code angibt.  Eine Datei, die einen
+Syntax-Fehler enthaelt, werden Sie also z.B. foo.2 nennen.  </p>
+
+<p>Die Dateien mit der Eingabe heissen *.0, *.1, *.2 oder *.3, wobei die
+Ziffer hinten den Exit-Code angibt.  Eine Datei, die einen
+Syntax-Fehler enthaelt, werden Sie also z.B. foo.2 nennen.  Beim
+Scanner-Beispiel gibt es fuer akzeptable Eingaben (also Dateien, die
+auf .0 enden) auch noch eine Ausgabe, die ueberprueft werden muss; die
+erwartete Ausgabe fuer die Datei bar.0 nennen Sie bar.out.</p>
+
+<p>Bei den akzeptablen Eingaben (also Dateien, die auf .0 enden) muessen
+Sie bei codea, codeb, und gesamt zusaetzlich noch eine .call-Datei
+schreiben, die C-Code fuer einen oder mehrere Aufrufe von Funktionen
+enthaelt, die in der .0/.xin-Datei vorkommen, und das Ergebnis des
+Aufrufs ueberprueft; und zwar sollen die Aufrufe wie folgt gemacht
+werden:</p>
+
+<p>RET(...);</p>
+
+<p>wobei "..." die Aufrufe und Ueberpruefungen enthaelt und als Ergebnis
+true (also 1 in C) liefert, wenn das Ergebnis stimmt, und false (0 in
+C), wenn das Ergebnis nicht stimmt.  Zusaetzlich werden Sie
+ueblicherweise noch die aufgerufenen Funktionen deklarieren.</p>
+
+<h2>Weitere Namenskonventionen fuer uns:</h2>
+
+<ul>
+<li>  Jeder Testfall hat als Praefix "_", sodass keine Namenskonflikte entstehen.</li>
+</ul><h1>Wie kannst du beitragen?</h1>
+
+<h2>mit git:</h2>
+
+<ul>
+<li>  forke das Repository auf github, committe deine Aenderungen und mach einen "Pull Request"</li>
+<li>
+<p>clone das Repository, committe deine Aenderungen, erzeuge Patches mit</p>
+
+<pre><code>git format-patch
+</code></pre>
+
+<p>und maile sie oder poste sie im Informatikforum</p>
+</li>
+</ul><h2>ohne git:</h2>
+
+<ul>
+<li>  schicke deine Testfaelle als Anhang per Mail (mit passenden Dateinamen bitte!)</li>
+<li>  poste deine Testfaelle im Informatikforum und haenge sie als Attachment an (mit passenden Dateinamen bitte!)</li>
+</ul><p>und natuerlich ist jeder herzlichst dazu eingeladen im Forum ueber Testfaelle zu diskutieren :)</p>
+
+<p>Infforum-Thread: <a href="http://www.informatik-forum.at/showthread.php?92835-Testcase-Sammlung&amp;p=751724">http://www.informatik-forum.at/showthread.php?92835-Testcase-Sammlung&amp;p=751724</a></p>
+
+<p>Mailadresse(n): jakob.gruber_AT_gmail_DOT_com (weitere Freiwillige sind willkommen, einfach eintragen)</p>
+
+<h1>Credits</h1>
+
+<p>Dieses README wurde schamlos von <a href="https://github.com/lewurm/testub10">https://github.com/lewurm/testub10</a> adaptiert.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/schuay">schuay</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
