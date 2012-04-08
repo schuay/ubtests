@@ -1,0 +1,4 @@
+extern long f(long);
+long x = 0;
+RET(f(&x) == 0 && x == 42);
+

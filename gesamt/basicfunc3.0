@@ -1,0 +1,15 @@
+sum(array, size)
+base_case:
+    (* size == 0
+       we're done
+     *)
+
+    if not -(size # 0) then
+        return 0;
+    end;
+
+out:
+    (* recurse into sum *)
+    return (*array) + sum(array + 1, size + (-1));
+
+end;

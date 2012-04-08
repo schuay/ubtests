@@ -1,0 +1,27 @@
+add(a, b)
+in:
+    var x = 0;
+    var c = 0;
+    var d = 0;
+    var i = 0;
+    var m = 0;
+    var y = 0;
+    var zz = 0;
+    var bb = 0;
+    var alf = 0;
+    var tst = 0;
+
+    x = *a;
+    a = (a + b + (c * d)) * (d + b);
+    y = (zz and bb) +1;
+    ( alf =< tst);
+    m = (alf =< tst ) =< alf;
+    c = alf # tst;
+
+    *i = tst;
+    ****i = tst;
+    * - not * not - a = tst;
+    *not i = tst;
+    *not -i = tst;
+    return a + (b*d);
+end;

@@ -1,0 +1,3 @@
+extern long sum(long, long);
+
+RET(1);

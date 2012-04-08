@@ -1,0 +1,3 @@
+f(a,b)
+    var x = x * 2;
+end;

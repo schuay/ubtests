@@ -1,0 +1,5 @@
+extern long fact_recursive(long);
+RET(fact_recursive(0) == 1 \
+    && fact_recursive(-1) == 1 \
+    && fact_recursive(5) == 120 \
+    && fact_recursive(15) == 0x13077775800);

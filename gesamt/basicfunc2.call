@@ -1,0 +1,3 @@
+extern long sum(long, long);
+/* Test system can't handle arrays or passing pointers */
+RET(1);

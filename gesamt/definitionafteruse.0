@@ -1,0 +1,7 @@
+foo(p1,p2)
+    if p1 # p2 then
+        var v2=v1+1;
+    end;
+
+    var v1=0;
+end;
