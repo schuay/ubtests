@@ -1,0 +1,3 @@
+f(a)
+  return *(a + 8);
+end;

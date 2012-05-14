@@ -1,0 +1,4 @@
+extern long foo(long);
+long test[2] = { 20, 10};
+RET( foo(test) == 10 );
+
