@@ -1,0 +1,3 @@
+extern long sgn(long);
+RET( sgn(1) == 1 && sgn(0) == 0 && sgn(-1) = -1 && sgn(30) == 1 && sgn(-25) == -1);
+

@@ -1,0 +1,2 @@
+extern long f(long);
+RET(f(0) == 10L && f(1) == 12L && f(-10) == -10L && f(30) == 70L);
