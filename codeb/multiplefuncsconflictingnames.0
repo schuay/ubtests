@@ -1,0 +1,11 @@
+f(a)
+    return a;
+end;
+
+g(a)
+    return a;
+end;
+
+h(a)
+    return a;
+end;

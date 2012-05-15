@@ -1,0 +1,2 @@
+extern long add(long, long);
+RET(add(-1,2) == 1 && add(42, 42) == 84);
