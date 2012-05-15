@@ -1,2 +1,2 @@
 extern long long_function_name_test(long, long);
-RET( long_function_name_test(2, 1) == 5 && long_function_name_test(10, -5) == 95 && long_function_name_test(-5, 10) == 35);
+RET( long_function_name_test(1, 2) == 5 && long_function_name_test(-5, 10) == 95 && long_function_name_test(10, -5) == 35);
