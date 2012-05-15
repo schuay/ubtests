@@ -1,0 +1,2 @@
+extern long f(long, long, long);
+RET(f(0, 0, 0) == -1L && f(42, 24, 123) == -43);
