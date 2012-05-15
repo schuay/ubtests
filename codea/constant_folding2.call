@@ -1,9 +1,2 @@
 extern long f(long);
-
-int test(long x) {
-  long res = f(x);
-  printf("f(%li) = %li", x, res);
-  return res;
-}
-
 RET(f(0) == 0L && f(1) == 24L && f(-10) == 2400L && f(30) == 21600L);
