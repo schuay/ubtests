@@ -1,0 +1,13 @@
+f(a)
+  if(1) then
+    return a;
+  end;
+  return 0;
+end;
+
+g(a)
+  if(0) then
+    return a;
+  end;
+  return 0;
+end;
