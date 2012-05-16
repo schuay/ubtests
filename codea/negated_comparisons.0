@@ -3,5 +3,5 @@ f(a)
 end;
 
 g(x)
-  return (not (a # 0));
+  return (not (x # 0));
 end;
