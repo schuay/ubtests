@@ -1,0 +1,7 @@
+f(a)
+  return (not (a =< 0));
+end;
+
+g(x)
+  return (not (a # 0));
+end;
