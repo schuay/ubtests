@@ -1,2 +1,9 @@
 extern long fact(long);
-RET(fact(0) == 1 && fact(1) == 1 && fact(5) == 120 && fact(10) == 3628800l);
+
+long f(long n) {
+  long res = fact(n);
+  printf("%li! = %li", n, res);
+  return res;
+}
+
+RET(f(0) == 1 && f(1) == 1 && f(5) == 120 && f(10) == 3628800l);
