@@ -1,10 +1,12 @@
 fact(n)
   res = 1;
+start:
   if( n =< 1) then
     goto stop;
   end;
   var res = res * n;
   n = n + (-1);
+  goto start;
 stop:
   return res;
 end;
