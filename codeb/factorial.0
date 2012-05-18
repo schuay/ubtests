@@ -1,0 +1,10 @@
+fact(n)
+start:
+  res = 1;
+  var res = res * n;
+  n = n + (-1);
+  if( not (n =< 1)) then
+    goto start;
+  end;
+  return res;
+end;
