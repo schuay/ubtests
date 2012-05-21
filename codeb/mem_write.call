@@ -1,0 +1,4 @@
+long s[]={12,23,34,45,53,61};
+
+extern long f(long, long);
+RET(f(s, 42)==1 && s[0] == 42);
