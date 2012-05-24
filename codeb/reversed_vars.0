@@ -9,8 +9,8 @@ end;
 
 
 g(y, x)
-  var m = y;
   var n = x;
+  var m = y;
   
   m = (m * (n + 2));
 
