@@ -12,7 +12,7 @@ g(y, x)
   var m = y;
   var n = x;
   
-  m = n + 2;
+  m = (m * (n + 2));
 
   return m + (2 * n);
 end;
