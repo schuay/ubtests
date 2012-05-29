@@ -1,0 +1,10 @@
+loop(x) 
+	var y = 0;
+start:
+	y = y + 1;
+	if (y =< (x + (-1))) then
+		var z = (5 + y + 10 + 10 + y + (3 * z));
+		goto start;
+	end;
+	return y;
+end;
