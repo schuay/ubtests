@@ -1,0 +1,13 @@
+f()
+	if (5 =< 10) then
+		return 1;
+	end;
+	return 0;
+end;
+
+g()
+	if (3 # 3) then
+		return 0;
+	end;
+	return 1;
+end;

@@ -1,0 +1,3 @@
+extern long loop(long);
+
+RET(loop(0) == 1 && loop(10) == 10 && loop(50) == 50);

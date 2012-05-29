@@ -1,0 +1,9 @@
+extern long lteq(long, long);
+extern long maximum();
+extern long minimum();
+
+long min = -9223372036854775807L - 1;
+long max = 9223372036854775807L;
+
+RET(lteq(min, max) == 1 && lteq(max, min) == 0 && lteq(max, max) == 1 && 
+	maximum() == max && minimum() == min);

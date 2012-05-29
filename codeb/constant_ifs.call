@@ -1,0 +1,4 @@
+extern long f();
+extern long g();
+
+RET(f() == 1 && g() == 1);
