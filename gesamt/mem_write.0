@@ -1,0 +1,4 @@
+f(address, value)
+  *address = value;
+  return 1;
+end;

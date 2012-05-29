@@ -1,0 +1,4 @@
+extern long f(long,long);
+extern long g(long,long);
+
+RET(f(3,7)== 41 && g(7, 3) == 41);
