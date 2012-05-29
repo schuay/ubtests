@@ -8,6 +8,6 @@ maximum()
 end;
 
 minimum()
-	var min = - &9223372036854775808;
+	var min = (- &9223372036854775807) + (- 1);
 	return (min);
 end;
