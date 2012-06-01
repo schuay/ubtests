@@ -1,3 +1,0 @@
-extern long foo(long);
-RET(1);
-
