@@ -4,7 +4,7 @@ f(a, b, c)
 end;
 
 g(b, a)
-  return a*10 + b;
+  return (a*10) + b;
 end;
 
 h(a, c, b)
