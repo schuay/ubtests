@@ -1,2 +1,2 @@
 extern long f(long, long);
-RET(f(1, 2) == 26 && f(5, 2) == 26);
+RET(f(1, 2) == 38 && f(5, 2) == 38);
