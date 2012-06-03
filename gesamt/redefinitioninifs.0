@@ -1,0 +1,12 @@
+f(a,b)
+  y = a;
+  if a =< b then
+    var x = y * 3;
+  end;
+  if b =< a then
+    var x = y * 2;
+  end;
+ 
+  var y = 77;
+  return x * b;
+end;
