@@ -7,6 +7,6 @@ f(a,b)
     var x = y * 2;
   end;
  
-  var y = 77;
-  return x * b;
+  var y = 13;
+  return y * b;
 end;
