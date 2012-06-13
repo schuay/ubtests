@@ -1,0 +1,16 @@
+f(a, b, c)
+  var d = 4;
+  return h(a, d, g(i(), b));
+end;
+
+g(h, j)
+  return h + j;
+end;
+
+h(a, c, b)
+  return (a*c) + (- b);
+end;
+
+i()
+  5;
+end;
