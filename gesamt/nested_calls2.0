@@ -1,6 +1,5 @@
 f(a, b, c)
-  var d = 4;
-  return h(a, d, g(i(), b));
+  return h(a, 4, g(i(), b));
 end;
 
 g(h, j)
@@ -12,5 +11,5 @@ h(a, c, b)
 end;
 
 i()
-  5;
+  return 5;
 end;
